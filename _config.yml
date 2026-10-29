@@ -1,9 +1,9 @@
 title: Sanjay
 description: Building small things, shipping them, and writing down what went wrong.
 
-# Repo is "myself-", so GitHub Pages serves it at sgsanjay044.github.io/myself-
+# Repo is "myself", so GitHub Pages serves it at sgsanjay044.github.io/myself
 # If you rename the repo to sgsanjay044.github.io or add a custom domain, set baseurl to ""
-baseurl: "/myself-"
+baseurl: "/myself"
 url: "https://sgsanjay044.github.io"
 
 github: SGSANJAY044
