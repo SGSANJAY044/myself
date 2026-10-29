@@ -24,4 +24,4 @@ So I'm trying it. Short projects. Ship them, see if anyone cares, figure out the
 
 This is where I'll put the [projects](projects/) and [write about](blog/) what worked, what didn't, and what I got wrong. Probably a lot of that last one.
 
-If you're doing something similar, say hi on [GitHub](https://github.com/{{ site.github }}).
+If you're doing something similar, say hi at [sgsanjayco@gmail.com](mailto:sgsanjayco@gmail.com).
