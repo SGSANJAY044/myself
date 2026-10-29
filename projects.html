@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<h1>projects</h1>
+<p class="lede">Small bets. Some will work, most won't. I'm keeping all of them here anyway.</p>
+
+<ul class="project-list">
+  {% for p in site.data.projects %}
+  <li class="project">
+    <div class="project-head">
+      <h2>{% if p.link %}<a href="{{ p.link }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</h2>
+      <span class="status status-{{ p.status | slugify }}">{{ p.status }}</span>
+    </div>
+    <p>{{ p.what }}</p>
+    {% if p.learned %}<p class="learned"><strong>what I learned:</strong> {{ p.learned }}</p>{% endif %}
+    {% if p.post %}<p><a href="{{ p.post | relative_url }}">read the write-up &rarr;</a></p>{% endif %}
+  </li>
+  {% endfor %}
+</ul>

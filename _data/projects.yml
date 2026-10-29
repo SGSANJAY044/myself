@@ -1,0 +1,13 @@
+# Newest first. Fields:
+#   name     - project name
+#   status   - building | live | dead | paused (anything works, it's just a label)
+#   what     - one or two lines on what it is
+#   learned  - optional, the honest takeaway
+#   link     - optional, URL to the live thing
+#   post     - optional, path to a blog post about it, e.g. /blog/2026/10/starting/
+
+- name: this site
+  status: live
+  what: Project zero. A place to put everything else. Plain Jekyll on GitHub Pages because I wanted to stop overthinking and start shipping.
+  learned: I spent more time picking a font than writing the code. Noted.
+  post: /blog/2026/10/starting/
